@@ -1,0 +1,14 @@
+{
+  "name": "@cassler/eslint-config",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "pub": "lerna publish",
+    "test": "lerna run test"
+  },
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}

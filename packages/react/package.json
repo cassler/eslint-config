@@ -1,0 +1,28 @@
+{
+  "name": "@cassler/eslint-config-react",
+  "version": "4.0.1",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "cassler's ESLint config for React components",
+  "keywords": [
+    "eslint",
+    "config",
+    "react"
+  ],
+  "author": "Andrei Picus <cassler@users.noreply.github.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cassler/eslint-config.git"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7.0.0"
+  }
+}

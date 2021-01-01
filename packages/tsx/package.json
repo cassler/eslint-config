@@ -1,0 +1,35 @@
+{
+  "name": "@cassler/eslint-config-tsx",
+  "version": "7.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "description": "cassler's ESLint config for TSX apps",
+  "keywords": [
+    "eslint",
+    "config",
+    "typescript",
+    "react"
+  ],
+  "author": "Darin Cassler <cassler@users.noreply.github.com>",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cassler/eslint-config.git"
+  },
+  "scripts": {
+    "test": "../../test.sh tdd-buffet tsx"
+  },
+  "dependencies": {
+    "@cassler/eslint-config-react": "^4.0.1",
+    "@cassler/eslint-config-ts": "^7.0.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.0.0",
+    "typescript": "^4.0.0"
+  }
+}
