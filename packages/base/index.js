@@ -95,12 +95,14 @@ module.exports = {
         allowTemplateLiterals: true,
       },
     ],
+    'jsx-quotes': ['error', 'prefer-double'],
     'prettier/prettier': [
       'error',
       {
         trailingComma: 'es5',
         printWidth: 80,
-        singleQuote: true,
+        singleQuote: false,
+        jsxSingleQuote: false,
       },
     ],
     radix: 0,
