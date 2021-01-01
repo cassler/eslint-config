@@ -1,6 +1,6 @@
 {
   "name": "@cassler/eslint-config-tsx",
-  "version": "7.1.7",
+  "version": "7.1.8",
   "publishConfig": {
     "access": "public"
   },
@@ -23,7 +23,7 @@
   },
   "dependencies": {
     "@cassler/eslint-config-react": "^4.0.2",
-    "@cassler/eslint-config-ts": "^7.1.7"
+    "@cassler/eslint-config-ts": "^7.1.8"
   },
   "peerDependencies": {
     "eslint": "^7.0.0"
