@@ -88,13 +88,7 @@ module.exports = {
         "allowTaggedTemplates": true
       }
     ],
-    "no-unused-vars": [
-      1,
-      {
-        "ignoreSiblings": true,
-        "argsIgnorePattern": "res|next|^err"
-      }
-    ],
+    "no-unused-vars": 2,
     "prefer-const": [
       "error",
       {
@@ -103,7 +97,6 @@ module.exports = {
     ],
 
     "quotes": ["error",
-      2,
       "double",
       {
         "avoidEscape": true,
