@@ -1,6 +1,6 @@
 {
   "name": "@cassler/eslint-config-base",
-  "version": "6.1.5",
+  "version": "6.1.6",
   "publishConfig": {
     "access": "public"
   },
