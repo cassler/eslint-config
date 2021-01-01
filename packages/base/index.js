@@ -89,7 +89,7 @@ module.exports = {
 
     quotes: [
       'error',
-      'single',
+      'double',
       {
         avoidEscape: true,
         allowTemplateLiterals: true,
