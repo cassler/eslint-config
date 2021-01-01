@@ -41,7 +41,7 @@ module.exports = {
 
     "jsx-a11y/href-no-hash": "off",
     "jsx-a11y/anchor-is-valid": [
-      "warn",
+      1,
       {
         "aspects": [
           "invalidHref"
@@ -108,7 +108,7 @@ module.exports = {
 
     "quotes": [
       2,
-      "single",
+      "double",
       {
         "avoidEscape": true,
         "allowTemplateLiterals": true
