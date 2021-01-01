@@ -13,23 +13,27 @@ module.exports = {
   ].map(require.resolve).concat([
     // This disables all stylistic rules from the above.
     'prettier',
+    'prettier/react'
   ]),
 
+  parser: "babel-eslint",
+  parserOptions: {
+    "ecmaVersion": 2018,
+    "ecmaFeatures": {
+      "impliedStrict": true,
+      "classes": true
+    }
+  },
   env: {
     browser: true,
+    node: true,
+    jest: true
   },
 
   plugins: ['prettier', 'import'],
 
   rules: {
-    "prettier/prettier": [
-      "error",
-      {
-        "trailingComma": "es5",
-        "singleQuote": false,
-        "printWidth": 80
-      }
-    ],
+
     "arrow-body-style": [
       2,
       "as-needed"
@@ -105,12 +109,20 @@ module.exports = {
       }
     ],
 
-    "quotes": [
+    "quotes": ["error",
       2,
       "double",
       {
         "avoidEscape": true,
         "allowTemplateLiterals": true
+      }
+    ],
+    "prettier/prettier": [
+      "error",
+      {
+        "trailingComma": "es5",
+        "singleQuote": true,
+        "printWidth": 80
       }
     ],
     "radix": 0,
