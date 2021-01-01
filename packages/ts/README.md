@@ -1,7 +1,7 @@
 ## Install
 
 ```sh
-npm i @nighttrax/eslint-config-ts
+npm i @cassler/eslint-config-ts
 ```
 
 
@@ -11,7 +11,7 @@ npm i @nighttrax/eslint-config-ts
 module.exports = {
   'root': true,
   'extends': [
-    '@nighttrax/eslint-config-ts',
+    '@cassler/eslint-config-ts',
   ]
 };
 ```
