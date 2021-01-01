@@ -1,7 +1,6 @@
 {
   "name": "@cassler/eslint-config",
   "private": true,
-  "version": "7.1.1",
   "workspaces": [
     "packages/*"
   ],
