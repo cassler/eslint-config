@@ -44,14 +44,7 @@ module.exports = {
     }],
 
     "jsx-a11y/href-no-hash": "off",
-    "jsx-a11y/anchor-is-valid": [
-      {
-        "aspects": [
-          "invalidHref"
-        ]
-      }
-    ],
-
+    "jsx-a11y/anchor-is-valid": 2,
     'one-var': 0,
     'one-var-declaration-per-line': 0,
     'prefer-arrow-callback': 0,
