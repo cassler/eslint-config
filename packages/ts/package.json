@@ -1,6 +1,6 @@
 {
   "name": "@cassler/eslint-config-ts",
-  "version": "9.0.2",
+  "version": "9.0.3",
   "publishConfig": {
     "access": "public"
   },
@@ -21,7 +21,7 @@
     "test": "../../test.sh mugshot ts"
   },
   "dependencies": {
-    "@cassler/eslint-config-base": "^8.0.0",
+    "@cassler/eslint-config-base": "^8.0.1",
     "@typescript-eslint/eslint-plugin": "~4.15.0",
     "@typescript-eslint/parser": "~4.15.0",
     "eslint-import-resolver-typescript": "~2.4.0"
